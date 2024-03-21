@@ -12,3 +12,8 @@ class Command(BaseCommand):
         pk = kwargs['id']
         user = User.objects.get(id=pk)
         self.stdout.write(f'{user}')
+
+    # def handle(self, *args, **kwargs):
+    #     pk = kwargs['id']
+    #     user = User.objects.filter(id=pk)
+    #     self.stdout.write(f'{user}')

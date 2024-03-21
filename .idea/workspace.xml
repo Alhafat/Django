@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1deb440e-5d17-4057-9e19-e05fad4bd7d1" name="Changes" comment="hm_2 21.03.2024">
-      <change afterPath="$PROJECT_DIR$/hm/sem_02/management/commands/get_all_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_02/management/commands/get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm/sem_02/management/commands/create_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm/sem_02/management/commands/get_all_products.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm/sem_02/management/commands/create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/hm/sem_02/management/commands/create_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hm/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm/sem_02/management/commands/get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/hm/sem_02/management/commands/get_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm/sem_02/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hm/sem_02/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,7 @@
       <workItem from="1711034756064" duration="1217000" />
       <workItem from="1711035986107" duration="4529000" />
       <workItem from="1711040539866" duration="1188000" />
-      <workItem from="1711041742554" duration="2937000" />
+      <workItem from="1711041742554" duration="4071000" />
     </task>
     <task id="LOCAL-00001" summary="hm_1 18.03.2024">
       <option name="closed" value="true" />
@@ -150,7 +152,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711045515686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hm_2 21.03.2024">
+      <option name="closed" value="true" />
+      <created>1711047034388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711047034388</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hm_2 21.03.2024">
+      <option name="closed" value="true" />
+      <created>1711047095981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711047095981</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hm_2 21.03.2024">
+      <option name="closed" value="true" />
+      <created>1711047230801</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711047230801</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
