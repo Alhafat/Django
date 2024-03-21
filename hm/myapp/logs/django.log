@@ -948,3 +948,8 @@ Not Found: /sem_0
 "GET /sem_0 HTTP/1.1" 404 2714
 D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
 Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
