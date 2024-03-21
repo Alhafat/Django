@@ -5,40 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1deb440e-5d17-4057-9e19-e05fad4bd7d1" name="Changes" comment="hm_2 21.03.2024">
-      <change afterPath="$PROJECT_DIR$/sem_02/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sem_02/management/commands/create_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sem_02/management/commands/my_command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sem_02/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sem_02/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/myapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/myapp/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/myapp/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/logs/django.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/myapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/myapp/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_02/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_02/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_02/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_02/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_02/management/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_02/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_02/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sems/sem_02/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sem_02/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hm/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm/sem_02/management/commands/create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/hm/sem_02/management/commands/create_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +74,8 @@
       <recent name="D:\учеба\19 Django_Python\Django_Python\sems\sem_01\first_program" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\учеба\19 Django_Python\Django_Python" />
       <recent name="D:\учеба\19 Django_Python\Django_Python\sems" />
+      <recent name="D:\учеба\19 Django_Python\Django_Python" />
       <recent name="D:\учеба\19 Django_Python\Django_Python\sems\sem_01\first_program\templates" />
       <recent name="D:\учеба\19 Django_Python\Django_Python\hm\hm_1" />
     </key>
@@ -138,6 +107,7 @@
       <workItem from="1711034756064" duration="1217000" />
       <workItem from="1711035986107" duration="4529000" />
       <workItem from="1711040539866" duration="1188000" />
+      <workItem from="1711041742554" duration="1493000" />
     </task>
     <task id="LOCAL-00001" summary="hm_1 18.03.2024">
       <option name="closed" value="true" />
@@ -163,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711039083098</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hm_2 21.03.2024">
+      <option name="closed" value="true" />
+      <created>1711042030615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711042030615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
