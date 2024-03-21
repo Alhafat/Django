@@ -14,6 +14,7 @@ class User(models.Model):
     — дата регистрации клиента
     """
 
+    id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
     email = models.EmailField()
     phone = models.CharField(max_length=13)
@@ -21,7 +22,7 @@ class User(models.Model):
     date_joined = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return (f'Username: {self.name}, email: {self.email},  phone: {self.phone}, address: {self.adress}, '
+        return (f'ID: {self.id} Username: {self.name}, email: {self.email},  phone: {self.phone}, address: {self.adress}, '
                 f'data_joined: {self.date_joined}')
 
 
