@@ -1,0 +1,950 @@
+side: None
+"GET / HTTP/1.1" 200 203
+side: None
+"GET /about/ HTTP/1.1" 200 141
+side: None
+"GET /about/ HTTP/1.1" 200 141
+D:\учеба\19 Django_Python\Django_Python\sems\sem_01\first_program\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+side: None
+"GET / HTTP/1.1" 200 203
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2404
+"GET /about HTTP/1.1" 301 0
+side: None
+"GET /about/ HTTP/1.1" 200 141
+Watching for file changes with StatReloader
+side: None
+"GET / HTTP/1.1" 200 203
+Watching for file changes with StatReloader
+side: None
+"GET / HTTP/1.1" 200 203
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2389
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2389
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2389
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2389
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2389
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2389
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2389
+Watching for file changes with StatReloader
+side: None
+"GET / HTTP/1.1" 200 203
+side: None
+"GET /about/ HTTP/1.1" 200 141
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2389
+D:\учеба\19 Django_Python\Django_Python\sems\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2541
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2541
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /index/ HTTP/1.1" 200 5
+side: None
+"GET / HTTP/1.1" 200 203
+"GET /index/ HTTP/1.1" 200 5
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /index/sem_02 HTTP/1.1" 301 0
+"GET /index/sem_02/ HTTP/1.1" 200 5
+D:\учеба\19 Django_Python\Django_Python\sems\sem_01\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_01 HTTP/1.1" 301 0
+side: None
+"GET /sem_01/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2521
+"GET /sem_02 HTTP/1.1" 301 0
+"GET /sem_02/ HTTP/1.1" 200 5
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET / HTTP/1.1" 500 81033
+"GET /index HTTP/1.1" 301 0
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /index/ HTTP/1.1" 500 81105
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /index/ HTTP/1.1" 500 81242
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /index/ HTTP/1.1" 500 81242
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET / HTTP/1.1" 500 81033
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET / HTTP/1.1" 500 81146
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /index/ HTTP/1.1" 500 81081
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /index/ HTTP/1.1" 500 81218
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "sems/sem_02/templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sems/sem_02/templates/index.html
+"GET /index/ HTTP/1.1" 500 81482
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "sem_02/templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/templates/index.html
+"GET /index/ HTTP/1.1" 500 81372
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "sem_02/templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/templates/index.html
+"GET /index/ HTTP/1.1" 500 81372
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "sem_02/templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/templates/index.html
+"GET /index/ HTTP/1.1" 500 81372
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "/templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /templates/index.html
+"GET /index/ HTTP/1.1" 500 79281
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "/templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /templates/index.html
+"GET /index/ HTTP/1.1" 500 79281
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "/templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /templates/index.html
+"GET /index/ HTTP/1.1" 500 79281
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "sem_02/templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/templates/index.html
+"GET /index/ HTTP/1.1" 500 81372
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /index.html
+"GET /index/ HTTP/1.1" 500 79161
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, "/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /index.html
+"GET /index/ HTTP/1.1" 500 79161
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /index/ HTTP/1.1" 200 203
+Not Found: /sem_02/index/
+"GET /sem_02/index/ HTTP/1.1" 404 3000
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/index/ HTTP/1.1" 200 203
+"GET /sem_02/index/ HTTP/1.1" 200 203
+Not Found: /sem_02/index/about
+"GET /sem_02/index/about HTTP/1.1" 404 3022
+Not Found: /sem_02/index/about
+"GET /sem_02/index/about HTTP/1.1" 404 3022
+Not Found: /sem_02/index/about
+"GET /sem_02/index/about HTTP/1.1" 404 3022
+Not Found: /sem_02/index/about
+"GET /sem_02/index/about HTTP/1.1" 404 3022
+"GET /sem_02/index/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /sem_02/
+"GET /sem_02/ HTTP/1.1" 404 3149
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 203
+Not Found: /sem_02/about
+"GET /sem_02/about HTTP/1.1" 404 3165
+"GET /sem_02/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/index.html
+"GET /sem_02/ HTTP/1.1" 500 81164
+Not Found: /sem_02/index/
+"GET /sem_02/index/ HTTP/1.1" 404 3140
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/index.html
+"GET /sem_02/index/ HTTP/1.1" 500 81236
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/templates/index.html
+"GET /sem_02/index/ HTTP/1.1" 500 81456
+Internal Server Error: /sem_02/index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/templates/index.html
+"GET /sem_02/index/ HTTP/1.1" 500 81456
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/index.html
+"GET /sem_02/index/ HTTP/1.1" 500 81236
+Internal Server Error: /sem_02/index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/index.html
+"GET /sem_02/index/ HTTP/1.1" 500 81236
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /sem_02/index/ HTTP/1.1" 500 81302
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2972
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /index/ HTTP/1.1" 500 81218
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /sem_02/ HTTP/1.1" 500 81093
+Internal Server Error: /sem_02/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /sem_02/ HTTP/1.1" 500 81093
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/index.html
+"GET /sem_02/ HTTP/1.1" 500 81164
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/templates/index.html
+"GET /sem_02/ HTTP/1.1" 500 81384
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 3053
+Internal Server Error: /sem_02/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 8, in index
+    return render(request, 'sem_02/templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/templates/index.html
+"GET /sem_02/ HTTP/1.1" 500 81247
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /sem_02/
+"GET /sem_02/ HTTP/1.1" 404 2913
+Not Found: /sem_02/
+"GET /sem_02/ HTTP/1.1" 404 2913
+Not Found: /sem_02/
+"GET /sem_02/ HTTP/1.1" 404 2913
+Not Found: /index/
+"GET /index/ HTTP/1.1" 404 2303
+Not Found: /sem_02/
+"GET /sem_02/ HTTP/1.1" 404 2913
+Not Found: /sem_01/
+"GET /sem_01/ HTTP/1.1" 404 2527
+Not Found: /sem_01/index
+"GET /sem_01/index HTTP/1.1" 404 2542
+D:\учеба\19 Django_Python\Django_Python\sems\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /sem_01/index
+"GET /sem_01/index HTTP/1.1" 404 3107
+side: None
+"GET /sem_01/ HTTP/1.1" 200 203
+"GET /sem_01/about HTTP/1.1" 301 0
+side: None
+"GET /sem_01/about/ HTTP/1.1" 200 141
+"GET /sem_02/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+Watching for file changes with StatReloader
+D:\учеба\19 Django_Python\Django_Python\sems\myapp\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+Watching for file changes with StatReloader
+"GET /sem_01 HTTP/1.1" 301 0
+side: None
+"GET /sem_01/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 12
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 10, in index
+    return render(request, 'templates/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/index.html
+"GET /sem_02/ HTTP/1.1" 500 81482
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+side: None
+"GET /sem_01/ HTTP/1.1" 200 203
+"GET /sem_02/ HTTP/1.1" 200 203
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /sem_02/
+Traceback (most recent call last):
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py", line 10, in index
+    return render(request, 'sem_02/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\учеба\19 Django_Python\Django_Python\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem_02/index.html
+"GET /sem_02/ HTTP/1.1" 500 81416
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /sem_02/ HTTP/1.1" 200 12
+Not Found: /sem_0
+"GET /sem_0 HTTP/1.1" 404 2714
+side: None
+"GET /sem_01/ HTTP/1.1" 200 203
+Not Found: /sem_0
+"GET /sem_0 HTTP/1.1" 404 2714
+D:\учеба\19 Django_Python\Django_Python\sems\sem_02\urls.py changed, reloading.
+Watching for file changes with StatReloader

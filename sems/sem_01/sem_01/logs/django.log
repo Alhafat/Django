@@ -1,7 +1,0 @@
-side: None
-"GET / HTTP/1.1" 200 203
-side: None
-"GET /about/ HTTP/1.1" 200 141
-side: None
-"GET /about/ HTTP/1.1" 200 141
-D:\учеба\19 Django_Python\Django_Python\sems\sem_01\first_program\views.py changed, reloading.
