@@ -23,7 +23,7 @@ class User(models.Model):
 
     def __str__(self):
         return (
-            f'ID: {self.pk} Username: {self.name}, email: {self.email},  phone: {self.phone}, address: {self.adress}, '
+            f'ID: {self.pk} Username: {self.name}, email: {self.email},  phone: {self.phone}, adress: {self.adress}, '
             f'data_joined: {self.date_joined}')
 
 
