@@ -1,4 +1,4 @@
-from django.core.management.base import  BaseCommand
+from django.core.management.base import BaseCommand
 from sem_02.models import User
 from sem_02.models import Order
 from sem_02.models import Product
@@ -6,6 +6,10 @@ from sem_02.models import Product
 
 class Command(BaseCommand):
     help = "Create order"
+
+    def add_arguments(self, parser):
+        parser.add_argument("User_id", type=int, help="User ID")
+        parser.add_argument('-p', '--Product_id', nargs='+', help="User ID", required=True)
 
     def handle(self, *args, **kwargs):
         User_id = kwargs.get('id')
@@ -21,4 +25,3 @@ class Command(BaseCommand):
             order.total_price = total_price
             order.save()
             order.products.add(product)
-
