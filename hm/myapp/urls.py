@@ -16,10 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from sem_04.views import upload_image
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('sem_01.urls')),
-    path('', include('sem_02.urls')),
+    # path('', include('sem_02.urls')),
+    path('', include('sem_04.urls')),
+    path('upload/', upload_image, name='upload_image'),
 ]

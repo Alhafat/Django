@@ -66,6 +66,11 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
+        'sem_04': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
     },
 }
 
@@ -81,6 +86,7 @@ INSTALLED_APPS = [
     'sem_01',
     'sem_02',
     'sem_03',
+    'sem_04',
 ]
 
 MIDDLEWARE = [
@@ -157,6 +163,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static/'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
