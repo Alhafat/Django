@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Customer Detail{% endblock %}
+
+{% block content %}
+    <h2>Customer Detail</h2>
+    <p>Name: {{ customer.name }}</p>
+    <p>Email: {{ customer.email }}</p>
+    <h3>Orders:</h3>
+    <ul>
+        {% for order in orders %}
+            <li>{{ order.product.name }} - {{ order.quantity }} - {{ order.date_ordered }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
