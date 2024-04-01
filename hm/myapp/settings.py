@@ -71,6 +71,11 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
+        'sem_05': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
     },
 }
 
@@ -87,6 +92,7 @@ INSTALLED_APPS = [
     'sem_02',
     'sem_03',
     'sem_04',
+    'sem_05',
 ]
 
 MIDDLEWARE = [

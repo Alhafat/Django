@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1deb440e-5d17-4057-9e19-e05fad4bd7d1" name="Changes" comment="hm_3 21.03.2024">
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/templates/change_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/templates/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/templates/upload_image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm/sem_04/views.py" afterDir="false" />
+    <list default="true" id="1deb440e-5d17-4057-9e19-e05fad4bd7d1" name="Changes" comment="hm_4 28.03.2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hm/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm/myapp/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/hm/myapp/logs/django.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm/myapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hm/myapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hm/myapp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +81,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
@@ -126,7 +108,10 @@
       <workItem from="1711041742554" duration="4891000" />
       <workItem from="1711378568173" duration="7759000" />
       <workItem from="1711404506585" duration="305000" />
-      <workItem from="1711629838872" duration="1496000" />
+      <workItem from="1711629838872" duration="1813000" />
+      <workItem from="1711705815767" duration="61000" />
+      <workItem from="1711705917027" duration="279000" />
+      <workItem from="1711706579549" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="hm_1 18.03.2024">
       <option name="closed" value="true" />
@@ -224,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711390093273</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="hm_4 28.03.2024">
+      <option name="closed" value="true" />
+      <created>1711631634656</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711631634656</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +228,8 @@
     <MESSAGE value="hm_1 18.03.2024" />
     <MESSAGE value="hm_2 21.03.2024" />
     <MESSAGE value="hm_3 21.03.2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="hm_3 21.03.2024" />
+    <MESSAGE value="hm_4 28.03.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="hm_4 28.03.2024" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django_Python$views.coverage" NAME="views Coverage Results" MODIFIED="1711031317122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sems/sem_02" />

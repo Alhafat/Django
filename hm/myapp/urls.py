@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('sem_01.urls')),
     # path('', include('sem_02.urls')),
-    path('', include('sem_04.urls')),
-    path('upload/', upload_image, name='upload_image'),
+    # path('', include('sem_04.urls')),
+    # path('upload/', upload_image, name='upload_image'),
+    path('', include('sem_05.urls')),
 ]
